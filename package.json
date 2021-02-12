@@ -1,6 +1,6 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "saadpasta.github.io",
+  "homepage": "https://sunitroy2703.github.io/",
+  "name": "sunitroy2703.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
     "react-headroom": "^3.0.0",
     "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "^3.4.4",
     "react-twitter-embed": "3.0.3"
   },
   "scripts": {
