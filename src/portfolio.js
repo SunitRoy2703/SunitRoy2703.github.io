@@ -37,7 +37,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY MOBILE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -54,47 +54,51 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "android sdk",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fab fa-android"
     },
     {
       skillName: "kotlin",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "java",
-      fontAwesomeClassname: "fab fa-sass"
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "flutter",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fas fa-angle-double-left"
     },
     {
       skillName: "dart",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fas fa-file-code"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "firebase",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fab fa-free-code-camp"
     },
     {
       skillName: "ml-kit",
-      fontAwesomeClassname: "fab fa-swift"
+      fontAwesomeClassname: "fas fa-brain"
     },
     {
       skillName: "arcore",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fab fa-codepen"
     },
     {
       skillName: "Third Party Apis",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fas fa-check-circle"
     },
     {
       skillName: "android studio",
-      fontAwesomeClassname: "fab fa-aws"
+      fontAwesomeClassname: "fas fa-drafting-compass"
     },
     {
       skillName: "vs code",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "fas fa-align-left"
     },
     {
       skillName: "python",
@@ -102,7 +106,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "debuging",
-      fontAwesomeClassname: "fab fa-docker"
+      fontAwesomeClassname: "fas fa-bug"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -205,7 +209,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
+  githubConvertedToken:  process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "SunitRoy2703", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
