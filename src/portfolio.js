@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Software Developer 🚀 having mobile development work experience in Android, Flutter, Augmented Reality, Machine Learning .  I'm currently working in a start-up called Wholesome Company."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/137Hrh1vK-lWiDfcgET-ODnBf2nJFlP7G/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -122,11 +122,11 @@ const educationInfo = {
       logo: require("./assets/images/eije.png"),
       subHeader: "Diploma in Electronics & Tele-Communications",
       duration: "july 2019 - August 2022 (expected)",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      // desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
       schoolName: "Kenduadihi High School(H.S)",
@@ -135,7 +135,7 @@ const educationInfo = {
       duration: "January 2013 - April 2019",
       // desc:
       //   "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+     // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -180,10 +180,17 @@ const workExperiences = {
       companylogo: require("./assets/images/wholesome.webp"),
       date: "Dec 2020 – Present",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "I'm a Mobile Developer intern in Wholesome Company, I have helped the start up for developing multiple AR apps from scratch, and deploy it to the Playstore.",
+     
+         descBullets: [
+        "Modifying their previous projects",
+        "Improving their UI/UX",
+        "Adding new features",
+        "App Security",
+        "Firebase Integration",
+        "VCS",
+        "App Optimization",
+        "Building docs"
       ]
     },
     {
@@ -192,8 +199,14 @@ const workExperiences = {
       companylogo: require("./assets/images/fossasia.jpg"),
       date: "Aug 2019 – Dec 2020",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+        "Last year I got involved in Fossasia, an One of the biggest Open Source Organization in Asia.",
+     descBullets: [
+          "Got Involved in multiple projects",
+          "Multiple pull request to their code",
+          "Many contributions related to the community",
+          "Participated in multiple virtual events there",
+        ]  
+      },
   //  {
     //   role: "Software Engineer Intern",
     //   company: "Airbnb",
@@ -224,7 +237,7 @@ const bigProjects = {
     {
       image: require("./assets/images/ic_launcher_foreground.png"),
       projectName: "Essence",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Essence is an Augmented Reality app, that captures the essence of the real world in the virtual or augmented world",
       footerLink: [
         {
           name: "Get The App in PlayStore",
@@ -236,7 +249,7 @@ const bigProjects = {
     {
       image: require("./assets/images/jackox.png"),
       projectName: "Jackoxr",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "This app is an extended reality app, where we can put 3D objects in augmented reality space.",
       footerLink: [
         {
           name: "Get The App in PlayStore",
@@ -252,15 +265,30 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Certifications 🏆 "),
+  title: emoji("Letters & Certifications 🏆 "),
   subtitle:
     "Here are some of my certificates that i want you to show !",
 
   achievementsCards: [
+
+    // {
+    //   title: "Letter from MLH",
+    //   subtitle:
+    //     "Letter from Major League Hacking ",
+    //   image: require("./assets/images/mlhicon.jpg"),
+    //   footerLink: [
+    //     {
+    //       name: "Letter",
+    //       url:
+    //         "https://drive.google.com/file/d/1nOCIvdOW8BY95AWFI1Yuf-XZDkApT5aY/view?usp=sharing"
+    //     }
+    //   ]
+    // },
+
     {
       title: "Google ARCore Certificate",
       subtitle:
-        "First Indian to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "This Certification covers the basic fundamentals of augmented reality (AR), and how to build an AR experience using ARCore, by Google",
       image: require("./assets/images/google.png"),
       footerLink: [
         {
@@ -283,7 +311,7 @@ const achievementSection = {
     {
       title: "Jetbrains Kotlin Certificate",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Kotlin Certification for Java Developers from Jetbrains",
       image: require("./assets/images/jetbrains.png"),
       footerLink: [
         {
@@ -296,7 +324,7 @@ const achievementSection = {
 
     {
       title: "Google Python Certificate",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle: "Crash Course on Python by Google",
       image: require("./assets/images/google.png"),
       footerLink: [
         {name: "Certification", 
