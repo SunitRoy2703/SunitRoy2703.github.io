@@ -232,12 +232,12 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "PROJECTS THAT I HAVE DEVELOPED AND CONTRIBUTED TO WHILE WORKING IN WHOLESOME COMPANY",
+  subtitle: "PROJECTS THAT I HAVE DEVELOPED AND CONTRIBUTED TO",
   projects: [
     {
       image: require("./assets/images/ic_launcher_foreground.png"),
       projectName: "Essence",
-      projectDesc: "Essence is an Augmented Reality app, that captures the essence of the real world in the virtual or augmented world",
+      projectDesc: "Essence is an Augmented Reality app, that captures the essence of the real world in the virtual or augmented world(WHOLESOME COMPANY)",
       footerLink: [
         {
           name: "Get The App in PlayStore",
@@ -247,9 +247,21 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/arpicasso1.png"),
+      projectName: "Ar Picasso",
+      projectDesc: "Ar Picasso is an Augmented Reality app, which let's you draw in air!",
+      footerLink: [
+        {
+          name: "Get The App in PlayStore",
+          url: "https://play.google.com/store/apps/details?id=com.sunit.arpicasso"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/jackox.png"),
       projectName: "Jackoxr",
-      projectDesc: "This app is an extended reality app, where we can put 3D objects in augmented reality space.",
+      projectDesc: "This app is an extended reality app, where we can put 3D objects in augmented reality space(WHOLESOME COMPANY)",
       footerLink: [
         {
           name: "Get The App in PlayStore",
@@ -265,9 +277,9 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Letters & Certifications 🏆 "),
+  title: emoji("Certifications 🏆 "),
   subtitle:
-    "Here are some of my certificates that i want you to show !",
+    "Here are some of my certificates that i want you to show!",
 
   achievementsCards: [
 
