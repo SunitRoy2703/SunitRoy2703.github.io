@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.bfc00e5c.chunk.css",
-    "main.js": "/static/js/main.313ba416.chunk.js",
-    "main.js.map": "/static/js/main.313ba416.chunk.js.map",
+    "main.js": "/static/js/main.1042fc0f.chunk.js",
+    "main.js.map": "/static/js/main.1042fc0f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d6a3a189.js",
     "runtime-main.js.map": "/static/js/runtime-main.d6a3a189.js.map",
-    "static/js/2.8f820584.chunk.js": "/static/js/2.8f820584.chunk.js",
-    "static/js/2.8f820584.chunk.js.map": "/static/js/2.8f820584.chunk.js.map",
+    "static/js/2.c416d1cd.chunk.js": "/static/js/2.c416d1cd.chunk.js",
+    "static/js/2.c416d1cd.chunk.js.map": "/static/js/2.c416d1cd.chunk.js.map",
     "static/css/3.00373544.chunk.css": "/static/css/3.00373544.chunk.css",
     "static/js/3.e5280bc8.chunk.js": "/static/js/3.e5280bc8.chunk.js",
     "static/js/3.e5280bc8.chunk.js.map": "/static/js/3.e5280bc8.chunk.js.map",
@@ -14,12 +14,12 @@
     "static/js/4.dd845e4e.chunk.js": "/static/js/4.dd845e4e.chunk.js",
     "static/js/4.dd845e4e.chunk.js.map": "/static/js/4.dd845e4e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a5b331756f59b00bd502f948a52f6008.js": "/precache-manifest.a5b331756f59b00bd502f948a52f6008.js",
+    "precache-manifest.5582965b2e57346c3102a74ac80d7fd5.js": "/precache-manifest.5582965b2e57346c3102a74ac80d7fd5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
     "static/css/4.3e7d09e6.chunk.css.map": "/static/css/4.3e7d09e6.chunk.css.map",
     "static/css/main.bfc00e5c.chunk.css.map": "/static/css/main.bfc00e5c.chunk.css.map",
-    "static/js/2.8f820584.chunk.js.LICENSE.txt": "/static/js/2.8f820584.chunk.js.LICENSE.txt",
+    "static/js/2.c416d1cd.chunk.js.LICENSE.txt": "/static/js/2.c416d1cd.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/arpicasso1.png": "/static/media/arpicasso1.e56fb946.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.51cf7192.svg",
@@ -38,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d6a3a189.js",
-    "static/js/2.8f820584.chunk.js",
+    "static/js/2.c416d1cd.chunk.js",
     "static/css/main.bfc00e5c.chunk.css",
-    "static/js/main.313ba416.chunk.js"
+    "static/js/main.1042fc0f.chunk.js"
   ]
 }
