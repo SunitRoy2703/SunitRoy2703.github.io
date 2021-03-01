@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Software Developer 🚀 having mobile development work experience in Android, Flutter, Augmented Reality, Machine Learning .  I'm currently working in a start-up called Wholesome Company."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/137Hrh1vK-lWiDfcgET-ODnBf2nJFlP7G/view?usp=sharing",
+    "https://drive.google.com/file/d/1k9Mh3CQTiZ3smcYCw-e4v-Wk_zWfqDUF/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -175,12 +175,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Mobile Developer(AR/AI)",
+      role: "Junior Software Developer",
       company: "Wholesome Company",
       companylogo: require("./assets/images/wholesome.webp"),
-      date: "Dec 2020 – Present",
+      date: "Mar 2021 - Present",
       desc:
-        "I'm a Mobile Developer intern in Wholesome Company, I have helped the start up for developing multiple AR apps from scratch, and deploy it to the Playstore.",
+        "Recently, I got promoted to Junior Software Developer in Wholesome Company, Now I'm helping the start up in Research and building docs",
+     
+         descBullets: [
+        "Research",
+        "Adding new features",
+        "App Security",
+        "Building docs"
+      ]
+    },
+    {
+      role: "Software Developer Intern",
+      company: "Wholesome Company",
+      companylogo: require("./assets/images/wholesome.webp"),
+      date: "Dec 2020 – Mar 2021",
+      desc:
+        "I was a Mobile Developer intern in Wholesome Company, I have helped the start up for developing multiple AR apps from scratch, and deploy it to the Playstore.",
      
          descBullets: [
         "Modifying their previous projects",
@@ -236,8 +251,8 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/ic_launcher_foreground.png"),
-      projectName: "Essence",
-      projectDesc: "Essence is an Augmented Reality app, that captures the essence of the real world in the virtual or augmented world(WHOLESOME COMPANY)",
+      projectName: "Essence(WHOLESOME COMPANY)",
+      projectDesc: "Essence is an Augmented Reality app, that captures the essence of the real world in the virtual or augmented world",
       footerLink: [
         {
           name: "Get The App in PlayStore",
@@ -260,8 +275,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/jackox.png"),
-      projectName: "Jackoxr",
-      projectDesc: "This app is an extended reality app, where we can put 3D objects in augmented reality space(WHOLESOME COMPANY)",
+      projectName: "Jackoxr(WHOLESOME COMPANY)",
+      projectDesc: "This app is an extended reality app, where we can put 3D objects in augmented reality space",
       footerLink: [
         {
           name: "Get The App in PlayStore",
