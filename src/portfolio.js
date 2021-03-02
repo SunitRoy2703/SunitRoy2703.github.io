@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Software Developer 🚀 having mobile development work experience in Android, Flutter, Augmented Reality, Machine Learning .  I'm currently working in a start-up called Wholesome Company."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1k9Mh3CQTiZ3smcYCw-e4v-Wk_zWfqDUF/view?usp=sharing",
+    "https://drive.google.com/file/d/1J3wzvp4HBxAyA-tRWXD3spiyp0sn0-zz/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
