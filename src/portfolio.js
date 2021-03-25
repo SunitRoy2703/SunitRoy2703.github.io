@@ -77,6 +77,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-github"
     },
     {
+      skillName: "tflite",
+      fontAwesomeClassname: "fas fa-head-side-virus"
+    },
+    {
       skillName: "firebase",
       fontAwesomeClassname: "fab fa-free-code-camp"
     },
