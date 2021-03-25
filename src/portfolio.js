@@ -292,25 +292,25 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Certifications 🏆 "),
+  title: emoji("Letters & Certifications 🏆 "),
   subtitle:
     "Here are some of my certificates that i want you to show!",
 
   achievementsCards: [
 
-    // {
-    //   title: "Letter from MLH",
-    //   subtitle:
-    //     "Letter from Major League Hacking ",
-    //   image: require("./assets/images/mlhicon.jpg"),
-    //   footerLink: [
-    //     {
-    //       name: "Letter",
-    //       url:
-    //         "https://drive.google.com/file/d/1nOCIvdOW8BY95AWFI1Yuf-XZDkApT5aY/view?usp=sharing"
-    //     }
-    //   ]
-    // },
+    {
+      title: "MLH Letter",
+      subtitle:
+        "Letter from Major League Hacking",
+      image: require("./assets/images/mlhicon.png"),
+      footerLink: [
+        {
+          name: "Letter",
+          url:
+            "https://drive.google.com/file/d/1ntslnCQP-NXy7nurpS7OcWmbFt-h0CF9/view?usp=sharing"
+        }
+      ]
+    },
 
     {
       title: "Google ARCore Certificate",
