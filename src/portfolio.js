@@ -216,7 +216,7 @@ const workExperiences = {
       role: "Open Source Developer",
       company: "Fossasia",
       companylogo: require("./assets/images/fossasia.jpg"),
-      date: "Aug 2019 – Dec 2020",
+      date: "Aug 2020 – Dec 2020",
       desc:
         "Last year I got involved in Fossasia, an One of the biggest Open Source Organization in Asia.",
      descBullets: [
