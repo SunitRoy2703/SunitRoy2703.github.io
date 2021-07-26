@@ -464,8 +464,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-6295723709",
-  emailAddress: "saadpasta70@gmail.com"
+  emailAddress: "iamsunitroy03@gmail.com"
 };
 
 // Twitter Section
