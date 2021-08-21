@@ -59,7 +59,11 @@
 }
 
 .instagram i {
-  background-color: #c13584;
+  background-color: #bc2a8d;
+}
+
+.youtube i{
+  background-color: red;
 }
 
 /* Hover Transition */
@@ -71,7 +75,8 @@
 .facebook i:hover,
 .instagram i:hover,
 .stack-overflow i:hover,
-.medium i:hover {
+.medium i:hover,
+.youtube i:hover {
   background-color: black;
 }
 

@@ -25,11 +25,10 @@ const socialMediaLinks = {
   github: "https://github.com/SunitRoy2703/",
   linkedin: "https://www.linkedin.com/in/sunit-roy/",
   gmail: "iamsunitroy03@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://sunitroy.medium.com/",
-  // // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // // Instagram and Twitter are also supported in the links!
+  twitter: "https://twitter.com/HeySunit",
+  instagram: "https://www.instagram.com/sunitroi.18",
+  youtube: "https://www.youtube.com/c/SunitRoy",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -37,10 +36,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY MOBILE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE MOBILE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your android and flutter applications"
+      "⚡ Develop highly interactive User Interfaces for your android and flutter applications"
     ),
     emoji("⚡ Developed multiple apps from stretch and published them to play store"),
     emoji(
@@ -187,9 +186,11 @@ const workExperiences = {
         "Contributing to Google's Open Source Machine Learning Platform Tensorflow in collaboration with Google Engineers",
 
       descBullets: [
-        "Recreated the existing Bert Qa example in Android(Java) and IOS(Swift) with TFLite Library",
-        "Recreated the existing Text Classification example in Android(Java) and IOS(Swift) with TFLite Library",
-        "Wrote tests and documentation for each example Application",
+        "Designed & recreated the BERT NLP Question Answering App (TFLite’s top 5 apps) to use the latest TFLite Task Library (released in Tensorflow DevSummit 2020) both in Android (Java) and iOS (Swift).",
+        "Developed separate Android library modules of Task API and Interpreter for BERT Question Android App & redesigned the app to switch between both APIs using Android product flavors.",
+        "Designed & recreated the Text Classification Android App (Java) to use the latest TFLite Task Library & to switch between both NLClassifier and BertNLClassifier API",
+        "Replaced 6000 lines of tedious custom code with few lines of simplified APIs.",
+        "Added documentation, tests, and code-walkthrough to help onboard new users.",
       ]
     },
     {
@@ -198,13 +199,13 @@ const workExperiences = {
       companylogo: require("./assets/images/wholesome.webp"),
       date: "Mar 2021 - May 2021",
       desc:
-        "I got promoted to Junior Software Developer in Wholesome Company, Now I'm helping the start up in Research and building docs",
+        "Got promoted to Junior Software Developer in Wholesome Company",
 
       descBullets: [
-        "Designed & Developed an Augmented Reality Social media platform(Java)",
-        "Took an Android Development webinar with 50 students",
-        "Researched Augmented Reality & 3D rendering on mobile",
-        "Building docs & diagrams"
+        "Designed & Developed an Augmented Reality (Arcore) Social media platform (Java), which lets you capture Augmented Reality environments and recreate and edit them anywhere.",
+        "Deployed and updated multiple Augmented Reality (Arcore) Android (Java) Apps to the Play store.",
+        "Conducted a live Android Development webinar with 50 students.",
+        "Researched Augmented Reality & 3D rendering on mobile devices and created architectural diagrams for the AR SDK."
       ]
     },
     {
@@ -216,14 +217,9 @@ const workExperiences = {
         "I was a Mobile Developer intern in Wholesome Company, I have helped the start up for developing multiple AR apps from scratch, and deploy it to the Playstore.",
 
       descBullets: [
-        "Modifying their previous projects",
-        "Improving their UI/UX",
-        "Adding new features",
-        "App Security",
-        "Firebase Integration",
-        "VCS",
-        "App Optimization",
-        "Building docs"
+        " Designed & Developed Augmented Reality Android(Java) Apps from scratch with Documentation.",
+        "Fixed bugs on their previous app and updated the app on the Play store.",
+        "Created architectural diagrams for their android applications and android app creation lifecycle.",
       ]
     },
     {
@@ -235,9 +231,9 @@ const workExperiences = {
         "Last year I got involved in Fossasia, an One of the biggest Open Source Organization in Asia.",
       descBullets: [
         "Got Involved in multiple projects",
+        "Spoked and participated in their multiple virtual events.",
         "Multiple pull request to their code",
         "Many contributions related to the community",
-        "Participated in multiple virtual events there",
       ]
     }
   ]
@@ -262,6 +258,18 @@ const bigProjects = {
   subtitle: "PROJECTS THAT I HAVE DEVELOPED AND CONTRIBUTED TO",
   projects: [
     {
+      image: require("./assets/images/TF_Icon.jpg"),
+      projectName: "BERT NLP Question Answering App",
+      projectDesc: "This Open-source app answers questions based on the content of a given passage of text with Bert. Here, I Designed & recreated the app in Android (Java) and iOS (Swift) to use TFLite Library.",
+      footerLink: [
+        {
+          name: "Get The Code",
+          url: "https://github.com/SunitRoy2703/examples/tree/bertQa-android-task-lib/lite/examples/bert_qa"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/help_out.png"),
       projectName: "helpOut",
       projectDesc: "helpOut lets you search for Oxygen, Ambulance, Ventilator, Beds, and many more related tweets by location.",
@@ -275,7 +283,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/ic_launcher_foreground.png"),
-      projectName: "Essence(WHOLESOME COMPANY)",
+      projectName: "Essence",
       projectDesc: "Essence is an Augmented Reality app, that captures the essence of the real world in the virtual or augmented world",
       footerLink: [
         {
@@ -299,7 +307,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/jackox.png"),
-      projectName: "Jackoxr(WHOLESOME COMPANY)",
+      projectName: "Jackoxr",
       projectDesc: "This app is an extended reality app, where we can put 3D objects in augmented reality space",
       footerLink: [
         {
@@ -316,22 +324,58 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Letters & Certifications 🏆 "),
+  title: emoji("Leadership & Awards 🏆 "),
   subtitle:
-    "Here are some of my certificates that i want you to show!",
+    "Here are some of my achievement that i want you to show!",
 
   achievementsCards: [
 
     {
-      title: "MLH Letter",
+      title: "Youtube Channel",
       subtitle:
-        "Letter from Major League Hacking",
-      image: require("./assets/images/mlhicon.png"),
+        "I teach Android development on my 260+ subscriber YouTube channel.",
+      image: require("./assets/images/youtube.png"),
       footerLink: [
         {
-          name: "Letter",
+          name: "Android Development Course",
           url:
-            "https://drive.google.com/file/d/1ntslnCQP-NXy7nurpS7OcWmbFt-h0CF9/view?usp=sharing"
+            "https://youtube.com/playlist?list=PLIAD_OEyckudMsJG3MLg67ilX5AFROUTN"
+        },
+        {
+          name: "Visit My Channel",
+          url:
+            "https://www.youtube.com/c/SunitRoy"
+        }
+      ]
+    },
+    {
+      title: "Codepath Technical Mentor",
+      subtitle:
+        "Currently mentoring college students in this non-profit, on Open source programs and Programming as a Codepath Technical mentor.",
+      image: require("./assets/images/codepath.png"),
+      footerLink: [
+        {
+          name: "Codepath Mentorship",
+          url:
+            "https://codepath.org/volunteer"
+        },
+        {
+          name: "Codepath",
+          url:
+            "https://codepath.org"
+        }
+      ]
+    },
+    {
+      title: "Android Webinar",
+      subtitle:
+        "Conducted an Android development webinar with 50 students on 30th May 2021.",
+      image: require("./assets/images/android.png"),
+      footerLink: [
+        {
+          name: "Check out the Webinar",
+          url:
+            "https://youtu.be/LnrkFd2UKaw"
         }
       ]
     },
@@ -470,7 +514,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "sry_iam", //Replace "twitter" with your twitter username without @
+  userName: "HeySunit", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
