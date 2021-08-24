@@ -27,7 +27,7 @@ const socialMediaLinks = {
   gmail: "iamsunitroy03@gmail.com",
   medium: "https://sunitroy.medium.com/",
   twitter: "https://twitter.com/HeySunit",
-  instagram: "https://www.instagram.com/sunitroi.18",
+  instagram: "https://www.instagram.com/sunitroy_/",
   youtube: "https://www.youtube.com/c/SunitRoy",
   display: true // Set true to display this section, defaults to false
 };
