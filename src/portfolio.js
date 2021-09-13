@@ -28,7 +28,7 @@ const socialMediaLinks = {
   medium: "https://sunitroy.medium.com/",
   twitter: "https://twitter.com/HeySunit",
   instagram: "https://www.instagram.com/sunitroy_/",
-  youtube: "https://www.youtube.com/c/SunitRoy",
+  youtube: "https://bit.ly/SunitRoyYT",
   display: true // Set true to display this section, defaults to false
 };
 
