@@ -123,7 +123,7 @@ const educationInfo = {
     {
       schoolName: "Engineering Institute For Junior Executives",
       logo: require("./assets/images/eije.png"),
-      subHeader: "Diploma in Electronics & Tele-Communications",
+      subHeader: "Diploma in Electronics & Tele-Communications Engineering",
       duration: "july 2019 - August 2022 (expected)",
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
