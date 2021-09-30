@@ -181,7 +181,7 @@ const workExperiences = {
       role: "GSoc Student Developer",
       company: "Tensorflow",
       companylogo: require("./assets/images/TF_Icon.jpg"),
-      date: "May 2021 - Present",
+      date: "May 2021 - Aug 2021",
       desc:
         "Contributing to Google's Open Source Machine Learning Platform Tensorflow in collaboration with Google Engineers",
 
@@ -194,7 +194,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Junior Software Developer",
+      role: "Software Developer",
       company: "Wholesome Company",
       companylogo: require("./assets/images/wholesome.webp"),
       date: "Mar 2021 - May 2021",
