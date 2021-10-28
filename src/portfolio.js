@@ -178,9 +178,35 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Campus Expert",
+      company: "GitHub",
+      companylogo: require("./assets/images/github.png"),
+      date: "Oct 2021 - Present",
+      desc:
+        "One of first GitHub Campus Expert from Bengal",
+
+      descBullets: [
+        "Campus Experts are student leaders that strive to build diverse and inclusive spaces to learn skills, share their experiences, and build projects together. They can be found across the globe leading in-person and online conferences, meetups, and hackathons, and maintaining open source projects."
+      ]
+    }, {
+      role: "Educator",
+      company: "YouTube",
+      companylogo: require("./assets/images/youtube.svg"),
+      date: "Mar 2021 - Present",
+      desc:
+        "I teach Android Development on my Youtube channel",
+
+      descBullets: [
+        "Detailed 4k quality videos",
+        "4500+ Youtube views",
+        "330+ Subscribers",
+        "100+ Community Discord server",
+      ]
+    },
+    {
       role: "GSoc Student Developer",
       company: "Tensorflow",
-      companylogo: require("./assets/images/TF_Icon.jpg"),
+      companylogo: require("./assets/images/TF_Icon.png"),
       date: "May 2021 - Aug 2021",
       desc:
         "Contributing to Google's Open Source Machine Learning Platform Tensorflow in collaboration with Google Engineers",
@@ -258,7 +284,7 @@ const bigProjects = {
   subtitle: "PROJECTS THAT I HAVE DEVELOPED AND CONTRIBUTED TO",
   projects: [
     {
-      image: require("./assets/images/TF_Icon.jpg"),
+      image: require("./assets/images/TF_Icon.png"),
       projectName: "BERT NLP Question Answering App",
       projectDesc: "This Open-source app answers questions based on the content of a given passage of text with Bert. Here, I Designed & recreated the app in Android (Java) and iOS (Swift) to use TFLite Library.",
       footerLink: [
@@ -329,22 +355,57 @@ const achievementSection = {
     "Here are some of my achievement that i want you to show!",
 
   achievementsCards: [
-
     {
-      title: "Youtube Channel",
+      title: "GitHub Campus Expert",
       subtitle:
-        "I teach Android development on my 260+ subscriber YouTube channel.",
-      image: require("./assets/images/youtube.png"),
+        "One of first GitHub Campus Expert from Bengal",
+      image: require("./assets/images/github.png"),
       footerLink: [
         {
-          name: "Android Development Course",
+          name: "Learn more",
           url:
-            "https://youtube.com/playlist?list=PLIAD_OEyckudMsJG3MLg67ilX5AFROUTN"
+            "https://education.github.com/experts"
+        }
+      ]
+    },
+    {
+      title: "Seminars",
+      subtitle:
+        "Conducted live seminars on Android development, TFLite and Open Source",
+      image: require("./assets/images/public-speaking.png"),
+      footerLink: [
+        {
+          name: "All Seminars",
+          url:
+            "https://bit.ly/SunitRoyAllSeminars"
         },
         {
-          name: "Visit My Channel",
+          name: "Open Source Seminar",
           url:
-            "https://www.youtube.com/c/SunitRoy"
+            "https://youtu.be/iws-QGALzLk"
+        },
+        {
+          name: "TFLite Seminar",
+          url:
+            "https://youtu.be/sZayUoWW6nE"
+        },
+        {
+          name: "Android seminar",
+          url:
+            "https://youtu.be/LnrkFd2UKaw"
+        }
+      ]
+    },
+    {
+      title: "Discord server",
+      subtitle:
+        "Built Community Discord server of 100+ Developers",
+      image: require("./assets/images/discord.svg"),
+      footerLink: [
+        {
+          name: "Join the Community",
+          url:
+            "https://bit.ly/SunitRoyDiscord"
         }
       ]
     },
@@ -366,20 +427,6 @@ const achievementSection = {
         }
       ]
     },
-    {
-      title: "Android Webinar",
-      subtitle:
-        "Conducted an Android development webinar with 50 students on 30th May 2021.",
-      image: require("./assets/images/android.png"),
-      footerLink: [
-        {
-          name: "Check out the Webinar",
-          url:
-            "https://youtu.be/LnrkFd2UKaw"
-        }
-      ]
-    },
-
     {
       title: "Google ARCore Certificate",
       subtitle:
@@ -428,8 +475,19 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
   blogs: [
+    {
+      url: "https://sunitroy.medium.com/google-summer-of-code-2021-tensorflow-%EF%B8%8F-9e171134f2c8",
+      title: "Google-Summer-of-Code-2021-Tensorflow ❤️",
+      description:
+        "Here’s my final submission for Google summer of code 2021 at #tensorflow."
+    },
+    {
+      url: "https://sunitroy.medium.com/creating-a-collection-of-tensorflow-lite-example-apps-in-kotlin-bad01f7784b0",
+      title: "Creating a collection of Tensorflow Lite example Apps in kotlin",
+      description:
+        "I’m creating a collection of Tensorflow Lite example Apps in kotlin, to show the kotlin implementation of the example Apps."
+    },
     {
       url: "https://sunitroy.medium.com/android-development-series-for-beginners-46001562eb42",
       title: "Android Development Series for Beginners🚀",
@@ -507,7 +565,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Mail me for Public Speaking or Freelance here",
   emailAddress: "iamsunitroy03@gmail.com"
 };
 
