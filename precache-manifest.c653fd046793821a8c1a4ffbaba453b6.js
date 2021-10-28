@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bd089769f3d223f1785f472ba120f08",
+    "revision": "14d6519c9b7173c40e7cd347aa79d472",
     "url": "/index.html"
   },
   {
-    "revision": "418e9ce8b5c13841b773",
+    "revision": "8964dc673c2f5f557002",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "80cb1e0adad244c22a49",
+    "revision": "c51f00bc374ef407861a",
     "url": "/static/css/4.3e7d09e6.chunk.css"
   },
   {
-    "revision": "f27fb959c79f13b1c5c9",
+    "revision": "cc765bddb6c0fea79542",
     "url": "/static/css/main.f7f8ddbc.chunk.css"
   },
   {
-    "revision": "179531d57f5ff6774145",
-    "url": "/static/js/2.8c932667.chunk.js"
+    "revision": "d551cd6ff6709f4ab5aa",
+    "url": "/static/js/2.f87257ad.chunk.js"
   },
   {
     "revision": "d0d8190170b812713050bd2e6e947e19",
-    "url": "/static/js/2.8c932667.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.f87257ad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "418e9ce8b5c13841b773",
-    "url": "/static/js/3.31c3f49d.chunk.js"
+    "revision": "8964dc673c2f5f557002",
+    "url": "/static/js/3.2c6f679b.chunk.js"
   },
   {
-    "revision": "80cb1e0adad244c22a49",
-    "url": "/static/js/4.f4cf8d16.chunk.js"
+    "revision": "c51f00bc374ef407861a",
+    "url": "/static/js/4.f1078bf9.chunk.js"
   },
   {
-    "revision": "f27fb959c79f13b1c5c9",
-    "url": "/static/js/main.293620b7.chunk.js"
+    "revision": "cc765bddb6c0fea79542",
+    "url": "/static/js/main.8f9a5597.chunk.js"
   },
   {
-    "revision": "500e22620c89e100e378",
-    "url": "/static/js/runtime-main.3df801a4.js"
+    "revision": "b1a60690a6d5147e5b15",
+    "url": "/static/js/runtime-main.aeb8368b.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -48,16 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "54f667e09a7c61b2a284f561360c981b",
-    "url": "/static/media/TF_Icon.54f667e0.jpg"
+    "revision": "5bbaa57694a715c3b57141837cecaee9",
+    "url": "/static/media/TF_Icon.5bbaa576.png"
   },
   {
     "revision": "e56fb946067b52feb636a0bc9488377b",
     "url": "/static/media/arpicasso1.e56fb946.png"
   },
   {
-    "revision": "f7b3e1b06eda4136834c860231416f34",
-    "url": "/static/media/codepath.f7b3e1b0.png"
+    "revision": "b61683e5871848c9dd107b400cf2f213",
+    "url": "/static/media/codepath.b61683e5.png"
   },
   {
     "revision": "51cf7192327488da3d2a171280680c16",
@@ -68,12 +68,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/developerActivity.59389695.svg"
   },
   {
+    "revision": "3437c10597c1526c3dbd98c737c2bcae",
+    "url": "/static/media/discord.3437c105.svg"
+  },
+  {
     "revision": "31489f442eb21de77167bde958d13a59",
     "url": "/static/media/eije.31489f44.png"
   },
   {
     "revision": "206a29d8ec50a69403682c359a647b2d",
     "url": "/static/media/fossasia.206a29d8.jpg"
+  },
+  {
+    "revision": "dbf59a8b3a57cb71f55739c0473dd4d7",
+    "url": "/static/media/github.dbf59a8b.png"
   },
   {
     "revision": "7d223f3451e2fe41b47ee34e21c44f7b",
@@ -104,6 +112,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/manOnTable.52be3144.svg"
   },
   {
+    "revision": "608c26b19661ea221283f538aa437d60",
+    "url": "/static/media/public-speaking.608c26b1.png"
+  },
+  {
     "revision": "3440939881da8339d1597e8d77cdf850",
     "url": "/static/media/skill.34409398.svg"
   },
@@ -116,7 +128,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/wholesome.e6b422ac.webp"
   },
   {
-    "revision": "4072c2b8fc8ad6147447d5e99dd2226d",
-    "url": "/static/media/youtube.4072c2b8.png"
+    "revision": "ceb54f8d317c2d9fa6d3c95227c817c2",
+    "url": "/static/media/youtube.ceb54f8d.svg"
   }
 ]);
