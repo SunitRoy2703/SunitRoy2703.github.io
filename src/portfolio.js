@@ -585,7 +585,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Mail me for Public Speaking or Freelance here",
+    "Mail me for Seminars and Workshops Here",
   emailAddress: "iamsunitroy03@gmail.com"
 };
 
