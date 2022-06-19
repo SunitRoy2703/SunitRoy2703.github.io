@@ -4,4 +4,4 @@
 
 ## Feel free to fork it and modify it for your use🤗
 
-Huge shout out to [@saadpasta](https://github.com/saadpasta) & [developerFolio](https://github.com/saadpasta/developerFolio), I have used their and modified it for this website❤️
+Huge shout out to [@saadpasta](https://github.com/saadpasta) & [developerFolio](https://github.com/saadpasta/developerFolio), I have used their code and modified it for this website❤️
